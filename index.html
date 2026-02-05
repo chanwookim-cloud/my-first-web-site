@@ -4,16 +4,19 @@
     <title>마인크래프트</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <script src="color.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1><a href="index.html">마인크래프트</a></h1>
+    <h1><a class="aTagException" href="index.html">Minecraft</a></h1>
+    <input id="modeToggle" type="button" value="다크 모드" onclick="modeToggle(this)">   
     <div id="grid">
         <ol>
-            <li><a href="je.html">Java Edition</a></li>
-            <li><a href="be.html">Bedrock Edition</a></li>
+            <li><a class="aTagException" href="je.html">Java Edition</a></li>
+            <li><a class="aTagException" href="be.html">Bedrock Edition</a></li>
         </ol>
         <div id="article">
-            <h2><a href="https://www.minecraft.net/ko-kr" target="_blank" title="마인크래프트 공식 사이트">마인크래프트</a></h2>
+            <h2><a class="aTagInception" href="https://www.minecraft.net/ko-kr" target="_blank" title="마인크래프트 공식 사이트">Minecraft</a></h2>
             <p>
                 <strong>개발사</strong>: Mojang Studios<br>
                 <strong>장르</strong>: 샌드박스, 생존, 건설, 어드벤처<br>
@@ -21,6 +24,6 @@
             </p>
         </div>
     </div>
-    <img width="100%" src="mc.jpg" alt="마인크래프트 이미지">
+    <img width="100%" src="image/mc.jpg" alt="마인크래프트 이미지">
 </body>
 </html>

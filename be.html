@@ -3,17 +3,20 @@
 <head>
     <title>마인크래프트 - Bedrock Edition</title>
     <meta charset="utf-8">
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="color.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1><a href="index.html">마인크래프트</a></h1>
+    <h1><a class="aTagException" href="index.html">Minecraft</a></h1>
+    <input id="modeToggle" type="button" value="다크 모드" onclick="modeToggle(this)">
     <div id="grid">
         <ol>
-            <li><a href="je.html">Java Edition</a></li>
-            <li><a href="be.html">Bedrock Edition</a></li>
+            <li><a class="aTagException" href="je.html">Java Edition</a></li>
+            <li><a class="aTagException" href="be.html">Bedrock Edition</a></li>
         </ol>
         <div id="article">
-            <h2><a href="https://www.minecraft.net/ko-kr/download" target="_blank" title="마인크래프트 다운로드">Bedrock Edition</a></h2>
+            <h2><a class="aTagInception" href="https://www.minecraft.net/ko-kr/download" target="_blank" title="마인크래프트 다운로드">Bedrock Edition</a></h2>
             <p>
                 <strong>개발 언어</strong>: C++<br>
                 <strong>플랫폼</strong>: Windows 10/11, Xbox, PlayStation, Nintendo Switch, iOS, Android<br>
@@ -21,6 +24,6 @@
             </p>
         </div>
     </div>
-    <img width="100%" src="bedrock.png" alt="마인크래프트 이미지">
+    <img width="100%" src="image/bedrock.png" alt="마인크래프트 이미지">
 </body>
 </html>
